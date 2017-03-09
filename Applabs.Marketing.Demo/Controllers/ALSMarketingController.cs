@@ -10,6 +10,7 @@ using Applabs.Marketing.Demo.Models;
 
 namespace Applabs.Marketing.Demo.Controllers
 {
+   [Authorize]
     public class ALSMarketingController : Controller
     {
         private ApplabEntities db = new ApplabEntities();
